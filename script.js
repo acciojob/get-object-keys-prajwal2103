@@ -1,5 +1,5 @@
 let Student={
-	name:"Prajwal"
+	name:"John"
 }
 Student.__proto__.getKeys=function(){
 	return Object.keys(Student);
