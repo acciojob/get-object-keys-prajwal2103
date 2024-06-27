@@ -1,7 +1,7 @@
 let Student={
 	name:"John"
 }
-Student.__proto__.getKeys=function(){
+	Object.prototype.getKeys=function(){
 	return Object.keys(Student);
 	
 }
